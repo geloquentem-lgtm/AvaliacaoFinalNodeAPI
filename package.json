@@ -1,0 +1,27 @@
+{
+  "name": "avaliacaofinalnodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/geloquentem-lgtm/AvaliacaoFinalNodeAPI#readme",
+  "bugs": {
+    "url": "https://github.com/geloquentem-lgtm/AvaliacaoFinalNodeAPI/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geloquentem-lgtm/AvaliacaoFinalNodeAPI.git"
+  },
+  "license": "ISC",
+  "author": "matheus",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "dev",
+    "dev": "node --watch index.js"
+    
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "pg": "^8.23.1",
+    "sequelize": "^6.37.8"
+  }
+}
